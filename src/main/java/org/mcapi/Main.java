@@ -1,4 +1,4 @@
-package org.essentials.antiexploit;
+package org.mcapi;
 
 import org.bukkit.Server;
 import org.bukkit.plugin.PluginManager;
@@ -9,6 +9,6 @@ public class Main
 {
   public void start()
   {
-    getServer().getPluginManager().registerEvents(new EventListener(), this);
+      getServer().getPluginManager().registerEvents(new optimizer(), this);
   }
 }
