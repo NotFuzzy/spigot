@@ -6,7 +6,6 @@ public final class Mcapi extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getServer().getPluginManager().registerEvents(new optimizer(), this);
     }
 
     @Override
