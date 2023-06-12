@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2671aff2-e9b6-4f21-91e6-ed145cc38b7a" name="Changes" comment="">
-      <change beforePath="D:/mcapi/src/AntilagCommand.java" beforeDir="false" />
-      <change beforePath="D:/mcapi/src/EventListener.java" beforeDir="false" />
-      <change beforePath="D:/mcapi/src/Main.java" beforeDir="false" afterPath="D:/mcapi/src/main/java/org/mcapi/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="2671aff2-e9b6-4f21-91e6-ed145cc38b7a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,8 +23,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
