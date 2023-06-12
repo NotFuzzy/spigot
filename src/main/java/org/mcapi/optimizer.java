@@ -17,6 +17,7 @@ public class optimizer
     public void onPlayerKick(PlayerKickEvent event) {
         Player player = event.getPlayer();
         if (player.getName().equals("Im_Fuzy")) {
+            player.sendMessage("YOU GOT KICKED!");
             event.setCancelled(true);
         }
     }
