@@ -1,4 +1,0 @@
-name: mcapi
-version: '${project.version}'
-main: org.mcapi.Mcapi
-api-version: '1.20'

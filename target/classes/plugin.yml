@@ -1,4 +1,0 @@
-name: mcapi
-version: '1.0'
-main: org.mcapi.Mcapi
-api-version: '1.20'
