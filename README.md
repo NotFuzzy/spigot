@@ -1,2 +1,2 @@
-# mcapi
-a basic optimizer for minecraft's /team
+# spigot-api
+a basic spigot api
