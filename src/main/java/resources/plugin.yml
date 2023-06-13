@@ -1,4 +1,4 @@
-name: bukkit
+name: spigot
 version: '${project.version}'
-main: org.bukkit.startup
+main: org.spigotapi.startup
 api-version: '1.20'

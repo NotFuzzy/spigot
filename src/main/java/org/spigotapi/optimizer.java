@@ -1,4 +1,4 @@
-package org.bukkit;
+package org.spigotapi;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;

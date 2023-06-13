@@ -1,6 +1,5 @@
-package org.bukkit;
+package org.spigotapi;
 
-import static org.bukkit.Bukkit.getServer;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class startup extends JavaPlugin {
