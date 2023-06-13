@@ -1,0 +1,4 @@
+name: bukkit
+version: '${project.version}'
+main: org.bukkit.startup
+api-version: '1.20'
