@@ -1,3 +1,2 @@
-org\mcapi\Mcapi.class
-org\mcapi\TeamOptimizer.class
-org\mcapi\optimizer.class
+org\bukkit\optimizer.class
+org\bukkit\startup.class

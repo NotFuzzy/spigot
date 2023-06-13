@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://D:/mcapi/mcapi.iml" filepath="D:/mcapi/mcapi.iml" />
+      <module fileurl="file://D:/mcapi/bukkit.iml" filepath="D:/mcapi/bukkit.iml" />
     </modules>
   </component>
 </project>
